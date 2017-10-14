@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore';
 import { Observable } from 'rxjs/Observable';
 
-export interface Item { name: string; }
+export interface Item { name: string };
 
 @Component({
   selector: 'app-root',
